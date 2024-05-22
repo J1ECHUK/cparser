@@ -46,7 +46,14 @@ char *join_texts(Multiple_text *multiple_text, char *separator) {
     }
     return result;
 }
-
+bool is_str_in_multiple_text(Multiple_text *multiple_text, char* str) {
+    for (int i = 0; i < multiple_text->count; i++) {
+        if (!strcmp(str, multiple_text->texts[i]->text)) {
+            return true;
+        }
+    }
+    return false;
+}
 
 typedef struct {
     char *word;
@@ -127,7 +134,6 @@ Dict *fill_dict(Text *text, char *tag) {
 
     return dict;
 }
-
 void print_dict(Dict *dict) {
     printf("      Tag name: %s\n      Words: {", dict->tag);
     for (int i = 0; i < dict->count; i++) {
