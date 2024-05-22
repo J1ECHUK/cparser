@@ -11,8 +11,8 @@
 #include "dict_of_tags.h"
 #include "search_word.h"
 
-Multiple_text *fill_search_tags_multiple_text(char *search_tags);
-char *str_text_for_search_tags(Tags *tags, char *search_tags_str);
+Multiple_text *fill_search_tags_multiple_text(char const *search_tags);
+char *str_text_for_search_tags(Tags const *tags, char const *search_tags_str);
 
 
 #endif //CPROJECT_SEARCH_TAG_H

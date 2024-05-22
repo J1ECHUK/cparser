@@ -37,12 +37,29 @@ void array_reverse(Array *arr) {
     }
 }
 
+Multiple_text *fill_search_words_multiple_text(char const *search_words) {
+    Multiple_text *search_words_multiple = init_multiple_text();
+    Text *search_words_text = init_text();
+    for (int i = 0; i < strlen(search_words); i++) {
+        add_char_to_text(search_words_text, search_words[i]);
+    }
+    Dict *search_words_dict = fill_dict(search_words_text, "");
+    for (int j = 0; j < search_words_dict->count; j++) {
+        Text *temp_search_word = init_text();
+        for (int t = 0; t < search_words_dict->words[j]->count; t++) {
+            add_char_to_text(temp_search_word, search_words_dict->words[j]->word[t]);
+        }
+        add_text_to_multiple_text(search_words_multiple, temp_search_word);
+    }
+    return search_words_multiple;
+}
 
-Array *search_word(Tags const *tags, char const *word) {
+Array *search_word(Tags const *tags, char const *search_words_str) {
+    Multiple_text *search_words = fill_search_words_multiple_text(search_words_str);
     Array *number_of_tags = init_array();
     for (int i = 0; i < tags->count; i++) {
         for (int j = 0; j < tags->dicts[i]->count; j++) {
-            if (!strcmp(tags->dicts[i]->words[j]->word, word)) {
+            if (is_str_in_multiple_text(search_words, tags->dicts[i]->words[j]->word)) {
                 add_int_to_array(number_of_tags, i);
             }
         }
@@ -50,8 +67,8 @@ Array *search_word(Tags const *tags, char const *word) {
     return number_of_tags;
 }
 
-char *str_text_for_search_word(Tags const *tags, char const *word) {
-    Array *number_of_tags = search_word(tags, word);
+char *str_text_for_search_word(Tags const *tags, char const *search_words) {
+    Array *number_of_tags = search_word(tags, search_words);
     Multiple_text *texts_for_search_word = init_multiple_text();
 
     for (int i = 0; i < number_of_tags->count; i++) {

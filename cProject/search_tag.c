@@ -8,7 +8,7 @@
 #include "dict_of_tags.h"
 #include "search_word.h"
 
-Multiple_text *fill_search_tags_multiple_text(char *search_tags) {
+Multiple_text *fill_search_tags_multiple_text(char const *search_tags) {
     Multiple_text *search_tags_multiple = init_multiple_text();
     Text *search_tags_text = init_text();
     for (int i = 0; i < strlen(search_tags); i++) {
@@ -28,7 +28,7 @@ Multiple_text *fill_search_tags_multiple_text(char *search_tags) {
     return search_tags_multiple;
 }
 
-char *str_text_for_search_tags(Tags *tags, char *search_tags_str) {
+char *str_text_for_search_tags(Tags const *tags, char const *search_tags_str) {
     Multiple_text *text_for_search_tags = init_multiple_text();
     Multiple_text *search_tags = fill_search_tags_multiple_text(search_tags_str);
     for (int i = 0; i < tags->count; i++) {
