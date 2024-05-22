@@ -15,8 +15,8 @@ typedef struct {
 Array *init_array();
 void add_int_to_array(Array *array, int num);
 void array_reverse(Array *arr);
-Array *search_word(Tags *tags, char const *word);
-char *str_text_for_search_word(Tags *tags, char const *word);
+Array *search_word(Tags const *tags, char const *word);
+char *str_text_for_search_word(Tags const *tags, char const *word);
 
 
 #endif //CPROJECT_SEARCH_WORD_H

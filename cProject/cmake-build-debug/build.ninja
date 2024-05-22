@@ -73,6 +73,12 @@ build CMakeFiles/cProject.dir/search_word.c.obj: C_COMPILER__cProject_Debug C$:/
   OBJECT_DIR = CMakeFiles\cProject.dir
   OBJECT_FILE_DIR = CMakeFiles\cProject.dir
 
+build CMakeFiles/cProject.dir/search_tag.c.obj: C_COMPILER__cProject_Debug C$:/Users/New/Downloads/temp/cProject/search_tag.c || cmake_object_order_depends_target_cProject
+  DEP_FILE = CMakeFiles\cProject.dir\search_tag.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\cProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\cProject.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cProject
@@ -81,7 +87,7 @@ build CMakeFiles/cProject.dir/search_word.c.obj: C_COMPILER__cProject_Debug C$:/
 #############################################
 # Link the executable cProject.exe
 
-build cProject.exe: C_EXECUTABLE_LINKER__cProject_Debug CMakeFiles/cProject.dir/main.c.obj CMakeFiles/cProject.dir/dict_of_words.c.obj CMakeFiles/cProject.dir/dict_of_tags.c.obj CMakeFiles/cProject.dir/search_word.c.obj
+build cProject.exe: C_EXECUTABLE_LINKER__cProject_Debug CMakeFiles/cProject.dir/main.c.obj CMakeFiles/cProject.dir/dict_of_words.c.obj CMakeFiles/cProject.dir/dict_of_tags.c.obj CMakeFiles/cProject.dir/search_word.c.obj CMakeFiles/cProject.dir/search_tag.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cProject.dir

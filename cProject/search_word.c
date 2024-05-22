@@ -38,7 +38,7 @@ void array_reverse(Array *arr) {
 }
 
 
-Array *search_word(Tags *tags, char const *word) {
+Array *search_word(Tags const *tags, char const *word) {
     Array *number_of_tags = init_array();
     for (int i = 0; i < tags->count; i++) {
         for (int j = 0; j < tags->dicts[i]->count; j++) {
@@ -50,7 +50,7 @@ Array *search_word(Tags *tags, char const *word) {
     return number_of_tags;
 }
 
-char *str_text_for_search_word(Tags *tags, char const *word) {
+char *str_text_for_search_word(Tags const *tags, char const *word) {
     Array *number_of_tags = search_word(tags, word);
     Multiple_text *texts_for_search_word = init_multiple_text();
 
