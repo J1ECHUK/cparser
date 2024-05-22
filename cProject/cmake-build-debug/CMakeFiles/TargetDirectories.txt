@@ -1,0 +1,3 @@
+C:/Users/New/Downloads/temp/cProject/cmake-build-debug/CMakeFiles/cProject.dir
+C:/Users/New/Downloads/temp/cProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/New/Downloads/temp/cProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
