@@ -29,7 +29,7 @@ Dict *init_dict();
 bool is_str_in_multiple_text(Multiple_text *multiple_text, char* str);
 char *join_texts(Multiple_text *multiple_text, char *separator);
 void add_char_to_text(Text *text, char c);
-void add_text_to_multiple_text(Multiple_text *sentence, Text *text);
+void add_text_to_multiple_text(Multiple_text *multiple_text, Text *text);
 void add_word_to_dict(Dict *dict, Word *word);
 void add_char_to_word(Word *word, char c);
 

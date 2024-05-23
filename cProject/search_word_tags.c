@@ -22,9 +22,8 @@ char *str_text_for_search_word_tag(Tags const *tags, char const *search_tags_str
     Multiple_text *texts_for_search = init_multiple_text();
 
     for (int i = 0; i < tags->count; i++) {
-        if (is_str_in_multiple_text(search_tags, tags->dicts[i]->tag)
-            & is_int_in_array(number_of_tags, i)) {
-            add_text_to_multiple_text(texts_for_search, tags->texts[number_of_tags->array[i]]);
+        if (is_str_in_multiple_text(search_tags, tags->dicts[i]->tag) && is_int_in_array(number_of_tags, i)) {
+            add_text_to_multiple_text(texts_for_search, tags->texts[i]);
         }
     }
     free(number_of_tags);
