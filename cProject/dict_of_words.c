@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
+#include <unistd.h>
 
 typedef struct {
     char *text;
@@ -87,7 +88,7 @@ Word *init_word() {
     return result;
 }
 Dict *init_dict() {
-    Dict *result = malloc(sizeof(Word));
+    Dict *result = malloc(sizeof(Dict));
     result->count = 0;
     result->tag = NULL;
     result->last_tag = NULL;
@@ -117,8 +118,8 @@ int is_char(char c) {
 Dict *fill_dict(Text *text, char *tag, char *last_tag) {
     Word *word = init_word();
     Dict *dict = init_dict();
-    dict->tag = tag;
-    dict->last_tag = last_tag;
+    if (tag) dict->tag = tag;
+    if (last_tag) dict->last_tag = last_tag;
     int sentence = 0;
     int paragraph = 0;
 

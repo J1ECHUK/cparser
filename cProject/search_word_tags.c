@@ -26,6 +26,6 @@ char *str_text_for_search_word_tag(Tags const *tags, char const *search_tags_str
             add_text_to_multiple_text(texts_for_search, tags->texts[i]);
         }
     }
-    free(number_of_tags);
+    free(number_of_tags->array);
     return join_texts(texts_for_search, "\n\t");
 }

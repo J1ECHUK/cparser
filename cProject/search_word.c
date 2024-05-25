@@ -64,6 +64,7 @@ Array *search_word(Tags const *tags, char const *search_words_str) {
             }
         }
     }
+    free(search_words->texts);
     return number_of_tags;
 }
 

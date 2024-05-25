@@ -61,10 +61,12 @@ Tags *fill_tags(FILE *file) {
 
     while (true) {
         Text *tag_name = init_text();
-        if (feof(file)) {
-            break;
-        }
+        if (feof(file)) break;
         char c = getc(file);
+//        while (skip_tag(&c, file, tag_name) == false) { // Чтение символов до конца файла
+//            putchar(c);
+//            c = getc(file);
+//        }
         if (skip_tag(&c, file, tag_name)) {
             if (check_empty_text(text)) {
                 add_text_to_tags(tags, text, fill_dict(text, tag_name->text, last_tag_name->text));
