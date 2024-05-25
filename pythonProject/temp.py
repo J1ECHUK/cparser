@@ -19,8 +19,13 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.send(request.encode())
 
 
+
     while True:
             data = s.recv(1024)
             if not data:
                 break
             print(data.decode(), end='')
+
+    response = s.recv(1024)
+
+    print(response.decode())

@@ -26,8 +26,8 @@ char* extract_link(const char *tag) {
 }
 
 char *str_text_for_search_link(Tags const *tags){ // , char const *domain) {
-    char const *domain = "wikipedia";
-    char const *search_tags_str = "a link";
+    char const *domain = "e";
+    char const *search_tags_str = "a";
     char *link;
     Multiple_text *text_for_search_links = init_multiple_text();
     Multiple_text *search_tags = fill_search_tags_multiple_text(search_tags_str);
@@ -40,7 +40,6 @@ char *str_text_for_search_link(Tags const *tags){ // , char const *domain) {
                      add_char_to_text(nice_link, link[t]);
                  }
                  add_text_to_multiple_text(text_for_search_links, nice_link);
-                 //free(nice_link->text);
              }
         }
     }
