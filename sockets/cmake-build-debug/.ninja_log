@@ -1,0 +1,7 @@
+# ninja log v5
+4	1518	7383718996684230	CMakeFiles/sockets.dir/main.c.obj	f046f30365bedbbb
+4	415	7383722715147846	build.ninja	caea349043ece307
+3	1420	7383722730770003	CMakeFiles/sockets.dir/main.c.obj	f046f30365bedbbb
+1420	1767	7383722732548747	sockets.exe	d65fafb5acddd8b5
+4	1684	7383723665679095	CMakeFiles/sockets.dir/main.c.obj	f046f30365bedbbb
+1684	2094	7383723667547774	sockets.exe	d65fafb5acddd8b5

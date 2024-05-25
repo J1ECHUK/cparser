@@ -5,8 +5,6 @@
 #include <unistd.h>
 #include <WinSock2.h>
 
-#difine BUFFER_SIZE 1024
-
 #include "dict_of_words.h"
 #include "dict_of_tags.h"
 #include "search_word.h"

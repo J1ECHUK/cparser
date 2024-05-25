@@ -1,0 +1,62 @@
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.1 Python/3.10.9
+Date: Sat, 25 May 2024 20:32:47 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 1332
+Connection: close
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Page</title>
+</head>
+
+<body>
+
+  <h1 id="pageTop">The beginning</h1>
+
+  <ul>
+<a href="kot-ryzhiy-lapy-lezhit.jpg">Potatoes</a>
+<li>Carrot</li>
+<li>Beetroot</li>
+</ul>
+
+  <ol>
+    <li>Bring the water to a boil</li>
+<li>Pour in the ingredients</li>
+<li>Cook for 10 minutes</li>
+</ol>
+
+  <dl>
+    <dt>Gazpacho</dt>
+    <dd>light cold soup made from mashed fresh vegetables</dd>
+    <dt>Tom-yam</dt>
+    <a href="kot-ryzhiy-lapy-lezhit.jpg">Tom-yam</a>
+    <dd>sour-spicy soup based on chicken broth with shrimp, chicken, fish or other seafood</dd>
+    <dt>Borscht</dt>
+    <dd>a kind of beetroot-based soup that gives borscht a characteristic red color</dd>
+  </dl>
+  <ul>
+
+    <img
+     src="https://img3.goodfon.ru/original/1152x864/6/49/koshka-kot-ryzhiy-lapy-lezhit.jpg"
+title="Murka"
+     alt="A red-haired cat is lying in the snow"
+     width="640"
+     height="480"
+    >
+
+  <figure>
+    <img src="https://www.google.ru/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png">
+    <figcaption>
+      Google logo from 2015
+    </figcaption>
+  </figure>
+  
+  <a href="#pageTop">Go back to the beginning</a>
+
+</body>
+</html>

@@ -39,10 +39,18 @@ int main() {
     char buffer[4096];
     int bytesReceived;
 
-    while ((bytesReceived = recv(sock, buffer, sizeof(buffer), 0)) > 0) {
-        printf("%.*s", bytesReceived, buffer);
+    FILE *file = fopen("output.txt", "w");
+    if (file == NULL) {
+        fprintf(stderr, "Error opening file\n");
+        return 1;
     }
 
+    while ((bytesReceived = recv(sock, buffer, sizeof(buffer), 0)) > 0) {
+        //printf("%.*s", bytesReceived, buffer);
+        fwrite(buffer, 1, bytesReceived, file);
+    }
+
+    fclose(file);
     closesocket(sock);
     WSACleanup();
 
