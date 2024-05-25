@@ -39,8 +39,8 @@ bool skip_tag(char *c, FILE *file, Text *tag_name) {
             }
             add_char_to_text(tag_name, *c);
         }
+        add_char_to_text(tag_name, '>');
     }
-    add_char_to_text(tag_name, '>');
     return skip;
 }
 bool check_empty_text(Text *text) {
@@ -57,6 +57,7 @@ bool check_empty_text(Text *text) {
 Tags *fill_tags(FILE *file) {
     Text *text = init_text();
     Tags *tags = init_tags();
+    Text *last_tag_name = init_text();
 
     while (true) {
         Text *tag_name = init_text();
@@ -65,10 +66,12 @@ Tags *fill_tags(FILE *file) {
         }
         char c = getc(file);
         if (skip_tag(&c, file, tag_name)) {
+            //printf("c  %s  |  %s  c\n", tag_name->text, last_tag_name->text);
             if (check_empty_text(text)) {
-                add_text_to_tags(tags, text, fill_dict(text, tag_name->text));
+                add_text_to_tags(tags, text, fill_dict(text, tag_name->text, last_tag_name->text));
                 text = init_text();
             }
+            last_tag_name = copy_text(last_tag_name, tag_name);
         }
         else add_char_to_text(text, c);
     }

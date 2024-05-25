@@ -32,10 +32,11 @@ void add_char_to_text(Text *text, char c);
 void add_text_to_multiple_text(Multiple_text *multiple_text, Text *text);
 void add_word_to_dict(Dict *dict, Word *word);
 void add_char_to_word(Word *word, char c);
+Text *copy_text(Text *last_dest, const Text *src);
 
 int is_char(char c);
 
-Dict *fill_dict(Text *text, char *tag);
+Dict *fill_dict(Text *text, char *tag, char *last_tag);
 
 void print_dict(Dict *dict);
 

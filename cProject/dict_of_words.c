@@ -24,6 +24,17 @@ Multiple_text *init_multiple_text() {
     return result;
 }
 
+Text *copy_text(Text *last_dest, const Text *src) {
+    if (src == NULL) {
+        return last_dest;
+    }
+    Text *dest = malloc(sizeof(Text));
+
+    dest->text = strdup(src->text);
+    dest->count = src->count;
+
+    return dest;
+}
 void add_char_to_text(Text *text, char c) {
     text->count = (text->text) ? strlen(text->text) : 0;
     text->text = realloc(text->text, (text->count + 2) * sizeof(char));
@@ -64,6 +75,7 @@ typedef struct {
 typedef struct {
     Word **words;
     char *tag;
+    char *last_tag;
     int count;
 } Dict;
 Word *init_word() {
@@ -78,6 +90,7 @@ Dict *init_dict() {
     Dict *result = malloc(sizeof(Word));
     result->count = 0;
     result->tag = NULL;
+    result->last_tag = NULL;
     result->words = NULL;
     return result;
 }
@@ -101,10 +114,11 @@ int is_char(char c) {
            (('0' <= c) && (c <= '9'));
 }
 
-Dict *fill_dict(Text *text, char *tag) {
+Dict *fill_dict(Text *text, char *tag, char *last_tag) {
     Word *word = init_word();
     Dict *dict = init_dict();
     dict->tag = tag;
+    dict->last_tag = last_tag;
     int sentence = 0;
     int paragraph = 0;
 
@@ -135,7 +149,7 @@ Dict *fill_dict(Text *text, char *tag) {
     return dict;
 }
 void print_dict(Dict *dict) {
-    printf("      Tag name: %s\n      Words: {", dict->tag);
+    printf("\tTag name: %s\n\tLast tag name: %s\n\tWords: {", dict->tag, dict->last_tag);
     for (int i = 0; i < dict->count; i++) {
         if (i+1 == dict->count) printf("%s", dict->words[i]->word);
         else printf("%s; ", dict->words[i]->word);

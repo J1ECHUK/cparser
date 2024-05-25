@@ -43,7 +43,7 @@ Multiple_text *fill_search_words_multiple_text(char const *search_words) {
     for (int i = 0; i < strlen(search_words); i++) {
         add_char_to_text(search_words_text, search_words[i]);
     }
-    Dict *search_words_dict = fill_dict(search_words_text, "");
+    Dict *search_words_dict = fill_dict(search_words_text, NULL, NULL);
     for (int j = 0; j < search_words_dict->count; j++) {
         Text *temp_search_word = init_text();
         for (int t = 0; t < search_words_dict->words[j]->count; t++) {

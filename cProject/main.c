@@ -20,13 +20,13 @@ int main() {
         return 0;
     }
     Tags *tags = fill_tags(file);
-    //print_tags(tags);
+    print_tags(tags);
     fclose(file);
     //char *text_for_search_word = str_text_for_search_word(tags, search_words);
     //char *text_for_search_tags = str_text_for_search_tags(tags, search_tags);
-    char *text_for_search_word_tags = str_text_for_search_word_tag(tags, search_tags, search_words);
+    //char *text_for_search_word_tags = str_text_for_search_word_tag(tags, search_tags, search_words);
     //printf("Text for searched word: %s\n\n", text_for_search_word);
     //printf("Text for searched tags: %s\n\n", text_for_search_tags);
-    printf("Text for searched word: %s\n\n", text_for_search_word_tags);
+    //printf("Text for searched word: %s\n\n", text_for_search_word_tags);
     return 0;
 }

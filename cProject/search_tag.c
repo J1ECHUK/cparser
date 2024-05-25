@@ -14,7 +14,7 @@ Multiple_text *fill_search_tags_multiple_text(char const *search_tags) {
     for (int i = 0; i < strlen(search_tags); i++) {
         add_char_to_text(search_tags_text, search_tags[i]);
     }
-    Dict *search_tags_dict = fill_dict(search_tags_text, "");
+    Dict *search_tags_dict = fill_dict(search_tags_text, NULL, NULL);
     for (int j = 0; j < search_tags_dict->count; j++) {
         Text *temp_search_tag = init_text();
         add_char_to_text(temp_search_tag, '<');
