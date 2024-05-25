@@ -17,6 +17,7 @@
   <li>OSINT</li>
   <li>Milk</li>
 </ol>
+<a class="Link--inTextBlock" href="/J1ECHUK/cparser/releases/new">Create a new release</a>
 
 <p>Milk</p>
 <h1>Milk</h1>

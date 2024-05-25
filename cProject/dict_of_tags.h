@@ -1,6 +1,8 @@
 #ifndef CPROJECT_DICT_OF_TAGS_H
 #define CPROJECT_DICT_OF_TAGS_H
 
+#include <stdio.h>
+
 typedef struct {
     Dict **dicts;
     Text **texts;

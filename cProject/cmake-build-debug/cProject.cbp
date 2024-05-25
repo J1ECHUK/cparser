@@ -91,6 +91,12 @@
 		<Unit filename="C:/Users/New/Downloads/temp/cProject/main.c">
 			<Option target="cProject"/>
 		</Unit>
+		<Unit filename="C:/Users/New/Downloads/temp/cProject/search_link.c">
+			<Option target="cProject"/>
+		</Unit>
+		<Unit filename="C:/Users/New/Downloads/temp/cProject/search_link.h">
+			<Option target="cProject"/>
+		</Unit>
 		<Unit filename="C:/Users/New/Downloads/temp/cProject/search_tag.c">
 			<Option target="cProject"/>
 		</Unit>

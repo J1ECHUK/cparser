@@ -18,6 +18,7 @@ typedef struct {
 typedef struct {
     Word **words;
     char *tag;
+    char *last_tag;
     int count;
 } Dict;
 

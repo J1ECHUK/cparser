@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cProject.dir/dict_of_words.c.obj.d"
   "CMakeFiles/cProject.dir/main.c.obj"
   "CMakeFiles/cProject.dir/main.c.obj.d"
+  "CMakeFiles/cProject.dir/search_link.c.obj"
+  "CMakeFiles/cProject.dir/search_link.c.obj.d"
   "CMakeFiles/cProject.dir/search_tag.c.obj"
   "CMakeFiles/cProject.dir/search_tag.c.obj.d"
   "CMakeFiles/cProject.dir/search_word.c.obj"

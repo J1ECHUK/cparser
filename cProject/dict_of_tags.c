@@ -66,7 +66,6 @@ Tags *fill_tags(FILE *file) {
         }
         char c = getc(file);
         if (skip_tag(&c, file, tag_name)) {
-            //printf("c  %s  |  %s  c\n", tag_name->text, last_tag_name->text);
             if (check_empty_text(text)) {
                 add_text_to_tags(tags, text, fill_dict(text, tag_name->text, last_tag_name->text));
                 text = init_text();

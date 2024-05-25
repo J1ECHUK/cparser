@@ -80,12 +80,12 @@ clean: CMakeFiles/cProject.dir/clean
 CMakeFiles/cProject.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cProject.dir\build.make CMakeFiles/cProject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cProject.dir\build.make CMakeFiles/cProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\New\Downloads\temp\cProject\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target cProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\New\Downloads\temp\cProject\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target cProject"
 .PHONY : CMakeFiles/cProject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\New\Downloads\temp\cProject\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\New\Downloads\temp\cProject\cmake-build-debug\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/cProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\New\Downloads\temp\cProject\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/cProject.dir/rule
