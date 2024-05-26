@@ -1,2 +1,2 @@
 search_mode=1
-search_words=NIGGA
+search_words=first
