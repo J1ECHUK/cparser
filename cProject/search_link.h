@@ -13,6 +13,6 @@
 #include "search_word_tags.h"
 
 char* extract_link(const char* tag);
-char *str_text_for_search_link(Tags const *tags);
+char *str_text_for_search_link(Tags const *tags, char const *domain, char const *search_tags_str);
 
 #endif //CPROJECT_SEARCH_LINK_H

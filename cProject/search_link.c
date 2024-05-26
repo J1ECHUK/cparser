@@ -25,9 +25,7 @@ char* extract_link(const char *tag) {
     return NULL;
 }
 
-char *str_text_for_search_link(Tags const *tags){ // , char const *domain) {
-    char const *domain = "e";
-    char const *search_tags_str = "a";
+char *str_text_for_search_link(Tags const *tags, char const *domain, char const *search_tags_str) {
     char *link;
     Multiple_text *text_for_search_links = init_multiple_text();
     Multiple_text *search_tags = fill_search_tags_multiple_text(search_tags_str);
