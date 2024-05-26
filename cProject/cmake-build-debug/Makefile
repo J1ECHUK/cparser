@@ -200,6 +200,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cProject.dir\build.make CMakeFiles/cProject.dir/main.c.s
 .PHONY : main.c.s
 
+parser_for_search.obj: parser_for_search.c.obj
+.PHONY : parser_for_search.obj
+
+# target to build an object file
+parser_for_search.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cProject.dir\build.make CMakeFiles/cProject.dir/parser_for_search.c.obj
+.PHONY : parser_for_search.c.obj
+
+parser_for_search.i: parser_for_search.c.i
+.PHONY : parser_for_search.i
+
+# target to preprocess a source file
+parser_for_search.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cProject.dir\build.make CMakeFiles/cProject.dir/parser_for_search.c.i
+.PHONY : parser_for_search.c.i
+
+parser_for_search.s: parser_for_search.c.s
+.PHONY : parser_for_search.s
+
+# target to generate assembly for a file
+parser_for_search.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cProject.dir\build.make CMakeFiles/cProject.dir/parser_for_search.c.s
+.PHONY : parser_for_search.c.s
+
 search_link.obj: search_link.c.obj
 .PHONY : search_link.obj
 
@@ -314,6 +338,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... parser_for_search.obj
+	@echo ... parser_for_search.i
+	@echo ... parser_for_search.s
 	@echo ... search_link.obj
 	@echo ... search_link.i
 	@echo ... search_link.s

@@ -11,12 +11,18 @@
 #include "search_tag.h"
 #include "search_word_tags.h"
 #include "search_link.h"
+#include "parser_for_search.h"
+
+
 
 
 int main() {
     char *filename = "html.txt";
-    char *search_words = "Tom tom osint";
-    char *search_tags = "h1 h2 h3 p a";
+    Text *search_mode = loadSearchMode1();
+    Text *search_words = loadSearchMode2();
+    Text *search_tags = loadSearchMode3();
+    Text *search_domain = loadSearchMode4();
+    printf("! %s %s %s %s !", search_mode->text, search_words->text, search_tags->text, search_domain->text);
     FILE *file = fopen(filename, "r");
     if (!file) {
         printf("Error while open file\n");

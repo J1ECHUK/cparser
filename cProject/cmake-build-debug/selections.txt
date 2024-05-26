@@ -1,0 +1,2 @@
+search_mode=2
+search_tags=234234

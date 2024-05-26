@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/New/Downloads/temp/cProject/dict_of_tags.c" "CMakeFiles/cProject.dir/dict_of_tags.c.obj" "gcc" "CMakeFiles/cProject.dir/dict_of_tags.c.obj.d"
   "C:/Users/New/Downloads/temp/cProject/dict_of_words.c" "CMakeFiles/cProject.dir/dict_of_words.c.obj" "gcc" "CMakeFiles/cProject.dir/dict_of_words.c.obj.d"
   "C:/Users/New/Downloads/temp/cProject/main.c" "CMakeFiles/cProject.dir/main.c.obj" "gcc" "CMakeFiles/cProject.dir/main.c.obj.d"
+  "C:/Users/New/Downloads/temp/cProject/parser_for_search.c" "CMakeFiles/cProject.dir/parser_for_search.c.obj" "gcc" "CMakeFiles/cProject.dir/parser_for_search.c.obj.d"
   "C:/Users/New/Downloads/temp/cProject/search_link.c" "CMakeFiles/cProject.dir/search_link.c.obj" "gcc" "CMakeFiles/cProject.dir/search_link.c.obj.d"
   "C:/Users/New/Downloads/temp/cProject/search_tag.c" "CMakeFiles/cProject.dir/search_tag.c.obj" "gcc" "CMakeFiles/cProject.dir/search_tag.c.obj.d"
   "C:/Users/New/Downloads/temp/cProject/search_word.c" "CMakeFiles/cProject.dir/search_word.c.obj" "gcc" "CMakeFiles/cProject.dir/search_word.c.obj.d"

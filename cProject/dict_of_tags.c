@@ -63,14 +63,14 @@ Tags *fill_tags(FILE *file) {
     while (true) {
         Text *tag_name = init_text();
         if (feof(file)) break;
-        char c = getc(file);
+        char c = fgetc(file);
         while (k) {
             if (c == '<') {
                 k = false;
                 break;
             }
             putchar(c);
-            c = getc(file);
+            c = fgetc(file);
         }
         if (skip_tag(&c, file, tag_name)) {
             if (check_empty_text(text)) {
