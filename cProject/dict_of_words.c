@@ -49,13 +49,20 @@ void add_text_to_multiple_text(Multiple_text *multiple_text, Text *text) {
     multiple_text->count++;
 }
 char *join_texts(Multiple_text *multiple_text, char *separator) {
-    char *result = malloc(sizeof(char));
+    int total_length = strlen(separator) * multiple_text->count + 1; // +1 для завершающего нуля
+    for (int i = 0; i < multiple_text->count; i++) {
+        total_length += strlen(multiple_text->texts[i]->text);
+    }
+
+    char *result = malloc(total_length);
     result[0] = '\0';
+
     strcat(result, separator);
     for (int i = 0; i < multiple_text->count; i++) {
         strcat(result, multiple_text->texts[i]->text);
         strcat(result, separator);
     }
+
     return result;
 }
 bool is_str_in_multiple_text(Multiple_text *multiple_text, char* str) {

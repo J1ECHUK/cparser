@@ -69,7 +69,6 @@ Tags *fill_tags(FILE *file) {
                 k = false;
                 break;
             }
-            putchar(c);
             c = fgetc(file);
         }
         if (skip_tag(&c, file, tag_name)) {

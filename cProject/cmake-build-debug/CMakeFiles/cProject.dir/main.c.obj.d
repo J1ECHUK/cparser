@@ -266,4 +266,5 @@ CMakeFiles/cProject.dir/main.c.obj: \
  C:\Users\New\Downloads\temp\cProject\search_word.h \
  C:\Users\New\Downloads\temp\cProject\search_tag.h \
  C:\Users\New\Downloads\temp\cProject\search_word_tags.h \
- C:\Users\New\Downloads\temp\cProject\search_link.h
+ C:\Users\New\Downloads\temp\cProject\search_link.h \
+ C:\Users\New\Downloads\temp\cProject\parser_for_search.h

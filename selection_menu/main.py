@@ -14,7 +14,7 @@ class App(tk.Tk):
                               font=("Arial", 18))
         self.label1.pack(pady=(30, 20))
 
-        self.input_field1 = tk.Entry(self, width=30)
+        self.input_field1 = tk.Entry(self, width=40)
         self.input_field1.pack()
 
         self.save_button = tk.Button(self, text="Сохранить", command=self.searchSelection)
@@ -34,12 +34,13 @@ class App(tk.Tk):
         self.input_field.pack_forget()
         self.label3.pack_forget()
         self.save_button.pack_forget()
+        self.dstr()
 
     def inputTags(self):
         self.label3 = tk.Label(self, text="Введите теги через пробел, тексты которых хотите найти:",
                                font=("Arial", 16))
         self.label3.pack(pady=(30, 20))
-        self.input_field = tk.Entry(self, width=30)
+        self.input_field = tk.Entry(self, width=35)
         self.input_field.pack()
         self.save_button = tk.Button(self, text="Сохранить", command=self.saveTags)
         self.save_button.pack(pady=10)
@@ -48,6 +49,7 @@ class App(tk.Tk):
         self.input_field.pack_forget()
         self.label3.pack_forget()
         self.save_button.pack_forget()
+        self.dstr()
 
     def inputWordsAndTags(self):
         self.label3 = tk.Label(self, text="Введите слова через пробел, которые хотите найти:",
@@ -75,6 +77,7 @@ class App(tk.Tk):
         self.label3.pack_forget()
         self.save_button.pack_forget()
         self.print_results()
+        self.dstr()
 
     def inputDomain(self):
         self.label3 = tk.Label(self, text="Введите один домен, ссылки с которым хотите найти:",
@@ -89,6 +92,7 @@ class App(tk.Tk):
         self.input_field.pack_forget()
         self.label3.pack_forget()
         self.save_button.pack_forget()
+        self.dstr()
 
     def searchSelection(self):
         self.url = self.input_field1.get()
@@ -143,8 +147,15 @@ class App(tk.Tk):
     def print_results(self):
         self.label2 = tk.Label(self, text="Ведется поиск",
                                font=("Arial", 22))
-        self.label2.pack(pady=(30, 20))
-        self.after(3000, self.destroy)
+        self.label2.pack(pady=(30, 22))
+        self.label2 = tk.Label(self, text="Информация будет сохранена в файле",
+                               font=("Arial", 16))
+        self.label2.pack(pady=(30, 18))
+    def dstr(self):
+        self.btn1 = tk.Button(self, text="Закрыть", command=self.destroy,
+                              height=1, width=15, font=("Arial", 9))
+        self.btn1.place(relx=0.5, rely=0.55, anchor="center")
+
 
 
 if __name__ == "__main__":
@@ -152,10 +163,17 @@ if __name__ == "__main__":
     app.geometry('600x180')
     app.title("BRUUUH")
     app.mainloop()
-    #args = [str(app.search), app.words, app.tags, app.domain]
+
     with open('C:/Users/New/Downloads/temp/cProject/cmake-build-debug/selections.txt', 'w') as file:
         result = (f"search_mode={str(app.search)}\n" + (f"search_words={app.words}\n" if app.words else "") +
                   (f"search_tags={app.tags}\n" if app.tags else "") + (f"search_domain={app.domain}\n" if app.domain else ""))
         file.write(result)
-    subprocess.run(['C:/Users/New/Downloads/temp/cProject/main.c'])
+
+    with open('C:/Users/New/Downloads/temp/sockets/url.txt', 'w') as url_file:
+        url_file.write(app.url)
+        print(app.url)
+
+
+
+
 

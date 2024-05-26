@@ -11,6 +11,7 @@
 
 char* extract_link(const char *tag) {
     const char* href_attr = "href=";
+    if (!strstr(tag, href_attr) || !strchr(tag, '"') || strlen(tag) < 6) return "";
     const char* href_start = strstr(tag, href_attr);
     if (href_start) {
         const char* link_start = href_start + strlen(href_attr) + 1;
@@ -22,7 +23,7 @@ char* extract_link(const char *tag) {
             return href;
         }
     }
-    return NULL;
+    return "";
 }
 
 char *str_text_for_search_link(Tags const *tags, char const *domain, char const *search_tags_str) {
@@ -32,9 +33,9 @@ char *str_text_for_search_link(Tags const *tags, char const *domain, char const 
     for (int i = 0; i < tags->count; i++) {
         if (is_str_in_multiple_text(search_tags, tags->dicts[i]->tag)) {
             link = extract_link(tags->dicts[i]->last_tag);
-             if (strstr(link, domain) != NULL) {
+             if (strstr(link, domain)) {
                  Text *nice_link = init_text();
-                 for (int t = 0; t < strlen(link) + 1; t++) {
+                 for (int t = 0; t < strlen(link); t++) {
                      add_char_to_text(nice_link, link[t]);
                  }
                  add_text_to_multiple_text(text_for_search_links, nice_link);

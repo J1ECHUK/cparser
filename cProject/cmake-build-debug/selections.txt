@@ -1,2 +1,2 @@
-search_mode=2
-search_tags=234234
+search_mode=1
+search_words=NIGGA

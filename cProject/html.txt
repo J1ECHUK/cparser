@@ -1,0 +1,608 @@
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.1 Python/3.10.9
+Date: Sun, 26 May 2024 16:58:55 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 44311
+Connection: close
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=yes">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="format-detection" content="telephone=no"/>
+        <meta name="title" content="Samsung Works to Accelerate the Global Goals at Cannes Lions 2022" />
+        <meta name="description" content="Samsung Electronics demonstrates how brands can leverage their collective reach to empower young people and take concrete action to foster a better, more sustainable world." />
+        
+
+        <title>Samsung Mobile Press &#8211; Samsung Mobile Press is the official source of news about Samsung&#039;s mobile products. Read press releases and features, watch videos, and download images.</title>
+
+        <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/common.css">
+        <script type="text/javascript" src="/assets/js/lib/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="/assets/js/lib/slick.min.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102584468-2"></script>
+        <script type="text/javascript" src="/assets/js/common.js"></script>
+        <script type="text/javascript" src="/assets/js/download.js"></script>
+        <script type="text/javascript" src="/assets/js/lib/jquery.mark.min.js"></script>
+        <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-102584468-2');
+        </script>
+    <meta property="og:title" content="Samsung Mobile Press" />
+    <meta property="og:url" content="https://www.samsungmobilepress.com" />
+    <meta property="og:description" content="Samsung Mobile Press is the official source of news about Samsung&#039;s mobile products. Read press releases and features, watch videos, and download images." />
+    <meta property="og:keywords" content="Samsung Mobile Press" />
+    <meta name="title" content="Samsung Mobile Press"/>
+    <meta name="description" content="Samsung Mobile Press is the official source of news about Samsung&#039;s mobile products. Read press releases and features, watch videos, and download images." />
+    <meta name="keywords" content="Samsung Mobile Press"/>
+    <style type="text/css">
+      .state-embargo {
+        font-size: .6rem;
+        padding: 0.39063vw 0.98125vw;
+        border-radius: 0.825vw;
+        /* margin: 1.17188vw 0.23438vw 0vw; */
+        display: inline-block;
+        color: #555;
+        font-family: "SamsungSharpSans", Helvetica, "malgun gothic", "Apple SD Gothic Neo", "Microsoft NeoGothic", "Droid sans", arial, sans-serif;
+        /* box-shadow: 0 2px 4px rgb(9 32 157 / 12%); */
+        line-height: 1;
+        position: absolute;
+        right: 10px;
+        z-index: 99;
+        background: rgba(255, 255, 255, 0.8);
+        line-height: 1.5;
+        border-radius: 0 0 0 15px;
+        /* transform: translate(15%, -60%); */
+      }
+
+      .state-embargo p:nth-child(1) {
+        text-align: center;
+        color: #d65b2d;
+      }
+
+      .state-embargo p:nth-child(1)::before {
+        content: '';
+        display: inline-block;
+        width: 9px;
+        height: 9px;
+        -moz-border-radius: 7.5px;
+        -webkit-border-radius: 7.5px;
+        border-radius: 7.5px;
+        background-color: #d65b2d;
+        margin-right: 7px;
+      }
+    </style>
+    <script>
+        function searchKeyword(element) {
+            var input = $(element).closest('form').find('.input-text');
+            if (input.val() === '') {
+                return SMP.layerConfirm('Please input search keywords', input);
+            }
+            alert(input.val() + ' 검색~');
+        }
+    </script>
+</head>
+<body>
+
+<div id="wrapper">
+    
+        <header>
+            <div class="main__inner">
+                <p class="logos"><a href="/" data-category="gnb" data-action="click" data-label="home">Samsung Mobile Press</a></p>
+                <nav class="gnb">
+                    <div class="gnb_wrap">
+                        <div class="main-menu">
+                            <ul>
+                                <li ><a href="/press-releases/" data-category="gnb" data-action="click" data-label="press_releases">Press Releases</a></li>
+                                <li ><a href="/feature-stories/" data-category="gnb" data-action="click" data-label="feature_stories">Feature Stories</a></li>
+                                <li ><a href="/media-assets/" data-category="gnb" data-action="click" data-label="media_assets">Media Assets</a></li>
+                            </ul>
+                        </div>
+                        <div class="gnb_footer">
+                            <ul class="util">
+                                <li><a href="/terms">Terms of Use</a></li>
+                            </ul>
+                            <div class="service">
+                                <div class="share">
+                                    <a href="/feed/" class="rss" target="_blank" data-category="footer" data-action="click" data-label="foot_rss">rss</a>
+                                    <a href="https://www.facebook.com/SamsungGlobal/" class="facebook" target="_blank" data-category="footer" data-action="click" data-label="foot_facebook">facebook</a>
+                                    <a href="https://twitter.com/samsungmobile/" class="twitter" target="_blank" data-category="footer" data-action="click" data-label="foot_twitter">twitter</a>
+                                    <a href="https://www.youtube.com/user/SamsungMobile/" class="youtube" target="_blank" data-category="footer" data-action="click" data-label="foot_youtube">youtube</a>
+                                    <a href="https://www.linkedin.com/company/samsungmobile/" class="linkedin" target="_blank" data-category="footer" data-action="click" data-label="foot_linkedin">linkedin</a>
+                                    <a href="https://www.instagram.com/samsungmobile/" class="instagram" target="_blank" data-category="footer" data-action="click" data-label="foot_instagram">instagram</a>
+                                </div>
+                                <div class="family-links">
+                                    <select class="input-select channel">
+                                        <option selected hidden disabled>Related Channels</option>
+                                        <option value="https://www.samsung.com" data-category="footer" data-action="click" data-label="foot_samsung_mainpage">SAMSUNG</option>
+                                        <option value="https://www.samsung.com/global/galaxy" data-category="footer" data-action="click" data-label="foot_samsung_galaxy">SAMSUNG Galaxy</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="search_btn" onclick="SMP.searchToggle();" data-category="gnb_search" data-action="click" data-label="search">Search open/close</button>
+                    <button type="button" class="menu_btn" onclick="SMP.navToggle();">mobile menu open/close</button>
+                </nav>
+            </div>
+            <div class="search_wrap">
+                <div class="search_inner">
+                    <form action="/fs/" method="get" id="searchForm" name="searchForm" autocomplete="off">
+                        <div class="search_form">
+                            <label for="searchWord" class="blind">Search keywords</label>
+                            <input type="text" style="display: none;"/>
+                            <input type="text" id="searchWord" name="keyword" class="input-text" onkeypress="__searchKeyPress(event,$('#searchForm'), $('#searchForm input[name=keyword]').val())" />
+                            <button type="button" class="search_btn" onclick="__searchSubmit($('#searchForm'), $('#searchForm input[name=keyword]').val())" data-category="gnb_search_layer" data-action="click" data-label="search_button">Search</button>
+                        </div>
+                        <div class="keywords">
+                            <p class="keywords-title">Popular Keywords :</p>
+                            <ul class="keywords-list">
+                                
+                                <li><a href="/fs/?keyword=Galaxy S24 Ultra" data-category="gnb_search_layer" data-action="click" data-label="popular_keywords">Galaxy S24 Ultra</a></li>
+                                
+                                <li><a href="/fs/?keyword=Galaxy S24+" data-category="gnb_search_layer" data-action="click" data-label="popular_keywords">Galaxy S24+</a></li>
+                                
+                                <li><a href="/fs/?keyword=Galaxy S24" data-category="gnb_search_layer" data-action="click" data-label="popular_keywords">Galaxy S24</a></li>
+                                
+                                <li><a href="/fs/?keyword=Galaxy Book4 Ultra" data-category="gnb_search_layer" data-action="click" data-label="popular_keywords">Galaxy Book4 Ultra</a></li>
+                                
+                                <li><a href="/fs/?keyword=Galaxy Book4 Pro" data-category="gnb_search_layer" data-action="click" data-label="popular_keywords">Galaxy Book4 Pro</a></li>
+                                
+                                <li><a href="/fs/?keyword=Galaxy Book4 Pro 360" data-category="gnb_search_layer" data-action="click" data-label="popular_keywords">Galaxy Book4 Pro 360</a></li>
+                                
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+    
+    <div id="container">
+        
+        <section class="section section__main section__kv">
+            <div class="main__inner">
+                <h2 class="blind">Popular Keywords</h2>
+                <div class="slider">
+                    <!-- 2021.11.26 수정 - 이미지 교체 및 텍스트 alt text로 변경 -->
+                    
+                    <div class="slider-item">
+                        <a href="/feature-stories/the-learning-curve-part-3-taking-ai-data-from-good-to-great/" target="_self">
+                            
+                            <div class="images-wrap">
+                                <img src="/file/60BA238E9E1FB3CA40DA543FE68273DED68A8AAF87875153EEB619CB04826F953DF2E5CECB9B2898659364BA7543A9DB95601F92136B025D4002E691D2E556EE7BF0F633433262060B0E5D2B9123A15284FE7C08AB9EE19392661CC0CF4FECD5CFD6C8DEC9D091FE050EB05DD7EBA6C41CF5448F5D32937759925ACFF4062AF999B027A518C6605E4FCB8B35AC3F86FB0917CE6B4268115D0A8AECDCEBA220C8187155E6CF1F3443520FAACDC0A91E75" alt="" class="js-images"
+                                     data-image-desktop="/file/60BA238E9E1FB3CA40DA543FE68273DED68A8AAF87875153EEB619CB04826F953DF2E5CECB9B2898659364BA7543A9DB95601F92136B025D4002E691D2E556EE7BF0F633433262060B0E5D2B9123A15284FE7C08AB9EE19392661CC0CF4FECD5CFD6C8DEC9D091FE050EB05DD7EBA6C41CF5448F5D32937759925ACFF4062AF999B027A518C6605E4FCB8B35AC3F86FB0917CE6B4268115D0A8AECDCEBA220C8187155E6CF1F3443520FAACDC0A91E75"
+                                     data-image-mobile="/file/95CFF57BF1D03C910D0FDF78E602D9199186AF448E540C0BF8E02A58F9D86F0BF0BAD847C973557BDBFC45BB0C2EEC1AB150008CBE517251325E8DE3B955ECA194410EA98F602F1C8DA769B78039343661893115A3CDFF4D6FF60665D515F3280FA9571C87F758AB0FF1D6C04319490533B02AAA75F195FD5D7B3AC1F4827682828E7F2A96388910C9F3CFB944B4A17AB374AC459E0A904A9EACBBDE19EF94D655A1F3A4C765AE5980C3F6D38DA1C1DF"/>
+                            </div>
+                            <div class="title-wrap">
+                                <strong class="title">The Learning Curve, Part 3: Taking AI Data From Good to Great</strong>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="slider-item">
+                        <a href="/feature-stories/voices-of-galaxy-the-road-ahead/" target="_self">
+                            
+                            <div class="images-wrap">
+                                <img src="/file/9168F9E7E05BEF9AD71B173354DCC95E612567E64F1FE949BA9DBD91D55C6C5115A0D68C03BF760BF103685F389B0D24FD48CB2756E497A1DD63C1DA98A71DDCF8731BE80685B8473C507D00122C1F324D9C603267E721002D0B8CF3512061812A781C2A9B9AE3EDE19B40B95DE44CB42EDA7E1D0FC29DE25BE09F296676AB7AF032286E51C382A26FFDE083B9B6F90C" alt="" class="js-images"
+                                     data-image-desktop="/file/9168F9E7E05BEF9AD71B173354DCC95E612567E64F1FE949BA9DBD91D55C6C5115A0D68C03BF760BF103685F389B0D24FD48CB2756E497A1DD63C1DA98A71DDCF8731BE80685B8473C507D00122C1F324D9C603267E721002D0B8CF3512061812A781C2A9B9AE3EDE19B40B95DE44CB42EDA7E1D0FC29DE25BE09F296676AB7AF032286E51C382A26FFDE083B9B6F90C"
+                                     data-image-mobile="/file/B84622CA69D747E7B610EE8A5DF2311F83FA4E17079C2A8C5D4BC9ED755E85AAB698F45D92BDBF3746D3A1B5945EE9082C504817EB0D456C19FA53B80C65D8AE93D2568F44B64CF3D235FACFDFBE8E44BA145E6C4D96F3AB3482E59FC1B7051D459190FD4C4E6CC68B51A03C3FC5D045098588A337FD61CFCED901580E2DC6FAC08BAD37DB1F3B45AF58900637C9A4B2"/>
+                            </div>
+                            <div class="title-wrap">
+                                <strong class="title">Voices of Galaxy: Meet the Para-Sprinter Helping the Next Generation Navigate the Road Ahead</strong>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="slider-item">
+                        <a href="/press-releases/galaxy-book4-edge-samsungs-next-gen-ai-pc-expands-the-galaxy-ai-ecosystem/" target="_self">
+                            
+                            <div class="images-wrap">
+                                <img src="/file/10890FE3A4F9E3EBB1D87A9F18D89DB1C5AC8AD30B13A7CB3BE6ADFD30137B1E0255AB5A3C8B3E773A74BB6C9DBDAC6001CA0CAED4D23C9513A144548FBFAD74D2FDAA336F3D70DAE70BCC01A8F190649F03EAAF8C813E34186985F0228FFF3805C409C876233FA3447399F581DFB712EDDAF76053BB76D7D2F981A19AF6F9C424D64F8775757FA86C81981D763687317AEEC14A2D20BE6C78B67FA5D78AA1BBC97A81043ACC8CE4C190D54581372DC6" alt="" class="js-images"
+                                     data-image-desktop="/file/10890FE3A4F9E3EBB1D87A9F18D89DB1C5AC8AD30B13A7CB3BE6ADFD30137B1E0255AB5A3C8B3E773A74BB6C9DBDAC6001CA0CAED4D23C9513A144548FBFAD74D2FDAA336F3D70DAE70BCC01A8F190649F03EAAF8C813E34186985F0228FFF3805C409C876233FA3447399F581DFB712EDDAF76053BB76D7D2F981A19AF6F9C424D64F8775757FA86C81981D763687317AEEC14A2D20BE6C78B67FA5D78AA1BBC97A81043ACC8CE4C190D54581372DC6"
+                                     data-image-mobile="/file/5F0658BAFA4C9B3BFD08856339E2319F85B9237483A86588BDF67BBD38CEFC9569DD694DFAAB1A9A4FC1F67D154C4F94BF1CE20F08B5CCF35D89138D83DCDED4534FDEAC01027B2A1FC3E12398F424D966486CAC77D342E7DC22CD09DCA5ABAAD2C18AA5C63B78C83417D81FE86D5320C763B05D6ED6E8D17DFA24B9623E863ED82DD2799702CF101B7D776B5A92006929EB54136F64B21C33AC6521DA29D89D1C23831E2AB06946A23F399127CB4F3D"/>
+                            </div>
+                            <div class="title-wrap">
+                                <strong class="title">Galaxy Book4 Edge: Samsung’s Next-Gen AI PC Expands the Galaxy AI Ecosystem</strong>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="slider-nav"></div>
+                <div class="slider-dot"></div>
+            </div>
+        </section>
+        
+        
+        <section class="section section__news">
+            <div class="main__inner">
+                <h2 class="section-title">Latest News</h2>
+                <div class="section__news-list">
+                    <ul>
+                        <li class="item">
+                            <a href="/feature-stories/opening-accessible-communication-through-galaxy-technology/">
+                                
+                                <div class="images-wrap">
+                                    <img src="/file/F9C3BBACA6E479E2589C04A84B5CB8F6366469606AC9C3185B0BB9289F7E25988719F8C4DB0B3C18B8517264E98BF66914D4E644639C64F62040BE47BE590273BB3BD272FB4299D5AD4A600BE69D2202A22654532258D1C27F9B23731E0EDCC98FEE86D99E673C0B1798F6A213FA6167A900A6DA7D6FB0DF370F13BB9E5AED1B88BF4628901A4B515EE5F109D8794D714DA77FC92D012885D2679805F53D04F35E9B4D9B8B325D1E542FF774631D72C6" alt="Opening-Accessible-Communication-through-Galaxy-Technology-News Thumb 1440x960.jpg" onerror="__img_error(this)"/>
+                                </div>
+                                <p class="category">Feature Story</p>
+                                
+                                <p class="title">Opening Accessible Communication Through Galaxy Technology</p>
+                                <p class="date">May 16, 2024</p>
+                            </a>
+                        </li>
+                        
+                        <li class="item">
+                            <a href="/feature-stories/the-learning-curve-part-2-how-to-build-an-ai-for-diverse-dialects/">
+                                
+                                <div class="images-wrap">
+                                    <img src="/file/021E15B6084FE0B379487F9F686BDE0414775F9026481843ED6FBBBDF6E7F908AF86AAE0AB8CAE7EAFA29A86D8C57DFE350FF7661A527E911EE8DA41B0A51CD56A49D542A87E4B508B606A9840F328BF5560D8E0F57130274D33515EECE73AC647289FC7F3B9590D939D5F9926A6BB30D9EB3503A212E6746318B38D23B1EC7510D0F21D61509E41B7D27E0FA33A0FEA437E37C490579BF92379AB7DCC2F9D19E1BCD68D6164D3147BCCEA5434E7B4208704BD456250C6A6B8358B7F7F162EE6" alt="The-Learning-Curve-Part-2-How-to-Build-an-AI-for-Diverse-Dialects-NewsThumb-1440x960.jpg" onerror="__img_error(this)"/>
+                                </div>
+                                <p class="category">Feature Story</p>
+                                
+                                <p class="title">The Learning Curve, Part 2: How to Build an AI for Diverse Dialects</p>
+                                <p class="date">May 16, 2024</p>
+                            </a>
+                        </li>
+                        
+                        <li class="item">
+                            <a href="/feature-stories/the-knox-journals-stay-in-control-of-your-security-your-data-used-exactly-how-you-see-fit/">
+                                
+                                <div class="images-wrap">
+                                    <img src="/file/A0F7B7096FD5951F0C2A42D028701A45702F70E0917D0D665D117D857A47F75E5D35D78162726AF18504B4EE5B050513E278A50D604D9ADBC115A5637774BAB8C196FCB16D28BAA039D9FCDF57EC38607592C6E456B8D65D5F428644A69879020D3F5D848CCDD1124F2623FF26AF40E5138A88B20A2A7DCAE5CD08ED29D8344D6248A4FA1F177FA1A6C9CE503F5E1D707251250619B39D17B5BA65D6C9BF9C070886710BB653BDEE8722B1073206EF8DA02B817FC8CA640D24B6D11380F8A3C88B8B12FB97C33F1DCD9C18617A71B800" alt="The-Knox-Journals-Stay-in-Control-of-Your-Security–Your-Data-Used-Exactly-How-You-See-Fit-NewsThumb-1440x960.jpg" onerror="__img_error(this)"/>
+                                </div>
+                                <p class="category">Feature Story</p>
+                                
+                                <p class="title">The Knox Journals: Stay in Control of Your Security – Your Data, Used Exactly How You See Fit</p>
+                                <p class="date">May 14, 2024</p>
+                            </a>
+                        </li>
+                        
+                        <li class="item">
+                            <a href="/feature-stories/paris-2024-first-look-new-olympic-rendezvous-samsung-champs-elysees-125/">
+                                
+                                <div class="images-wrap">
+                                    <img src="/file/3AB44834BC88EF151FFADC817A2C2B129DF7B555672649FFC44495EC7119C8E25E90537764FAF3C5EC3E3ABE811D8336A72576B4D437624537AF0E1F4362570552548003613005618B74103C855ED12134FFCB7E176D716A9FD5A0238783768AB6E58B884ADFCCBA12C1D5C2E86804FEEC887AEA28E1DA4A3BB44E85F4A74E166F39715E5F01086FA02BAF53F930430B4FEBC53D39ADAEDFD1F3A7A0DCDEB956" alt="Olympic-Rendezvous-at-Samsung-Champs-Elysees-NewsThumb-1440x960.jpg" onerror="__img_error(this)"/>
+                                </div>
+                                <p class="category">Feature Story</p>
+                                
+                                <p class="title">[Paris 2024] First Look: New Olympic™ Rendezvous @ Samsung | Champs-Elysees 125</p>
+                                <p class="date">May 13, 2024</p>
+                            </a>
+                        </li>
+                        
+                        <li class="item">
+                            <a href="/feature-stories/the-learning-curve-part-1-why-teaching-ai-new-languages-begins-with-data/">
+                                
+                                <div class="images-wrap">
+                                    <img src="/file/9C4607F3F23572EE0680CF515EAFAB206BA006D1BC3AA34B2B7A8F932C1517472D1A1F8F6690EC7A0FBB3205B03FD8275EC06AD93949941829FC9456504BC7A3E6AB2C55F162B0318D581A4D90A29DE02CA5D41F49F4FE573A78FAA0D997D5072F35AF6AB9AF14EC183BDCF41B1798E2898A2ED0BBD36A1B9D1261BF23236370CA5AA42E9AF85124B20A187B8F2EEEC4D0AF3D6D83F32E102C777E53E1D5C9DFBFF09DF3FAB8FAA754AE8ED76062969D42BBE45BD5273DF9FB800A6897E35A04" alt="The-Learning-Curve-Part-1-Why-Teaching-AI-New-Languages-Begins-with-Data-NewsThumb-1440x960.jpg" onerror="__img_error(this)"/>
+                                </div>
+                                <p class="category">Feature Story</p>
+                                
+                                <p class="title">The Learning Curve, Part 1: Why Teaching AI New Languages Begins With Data</p>
+                                <p class="date">May 9, 2024</p>
+                            </a>
+                        </li>
+                        
+                        <li class="item">
+                            <a href="/press-releases/samsung-joins-forces-with-ibm-to-help-centralize-mobile-security-for-enterprises/">
+                                
+                                <div class="images-wrap">
+                                    <img src="/file/7E1339AF4DD504D10224D0D1680DE32609C8F104B0F24961D5AC8C6C013D52F7AD77811E3BF3684A817A8BCD3516E8646DEBD9DDE0AF8093FE5790F9122DA4900C960670ED6C5EB81168C92AF79017F0A07B0346EEB04F42798F599CFD9AB761AFC5C35CA065AF71A848A5563F5D3AAE211D8450F1553910A4C4BF85C174CB113FFDB4ABDFA6AAE44FCE918738701EF7" alt="Samsung-IBM-partnership-News-Thumb.jpg" onerror="__img_error(this)"/>
+                                </div>
+                                <p class="category">Press Releases</p>
+                                
+                                <p class="title">Samsung Joins Forces With IBM to Help Centralize Mobile Security for Enterprises </p>
+                                <p class="date">May 8, 2024</p>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <section class="section section__black section__products">
+            <div class="main__inner">
+                <div class="section__black-list">
+                    <h2 class="section-title">Latest Products</h2>
+                    <div class="slider-nav"></div>
+                    <div class="slider">
+                        
+                        <div class="slider-item item">
+                            <a href="/media-assets/galaxy-s24-ultra/">
+                                <div class="images-wrap">
+                                    
+                                    <img src="/file/FC05AE750AD6EB0673D9E9D4C157D4FDCA91C0319D37B2827A4ACC850D3D124959298BB89A1D18EEB9531CE7B6BDB56BB43890C99A07EF46FFD865333FEC385C3A4ECDA52E32E217D32C2807BAAF403A9124FE24BD2AD9F141EA995A91D14E9095EC253173B6A26FE1DB745A586CC1ADDE7D6D440FA45C94CA365A5CF1A540E7" alt="Galaxy-S24ultra-MAThumb-1440x960.jpg" onerror="__img_error(this)"/>
+                                </div>
+                                <p class="title">Galaxy S24 Ultra</p>
+                            </a>
+                        </div>
+                        
+                        <div class="slider-item item">
+                            <a href="/media-assets/galaxy-s24-plus/">
+                                <div class="images-wrap">
+                                    
+                                    <img src="/file/2B49DE3AF6DC5C385DC88B10B4D7FAB2CB1E257C5E18F6D82B5D28756A5D59E806C620F36AB538A1E6339F4A378CA7885917574E1DD0F19009130A72F0746330A14BA84873D042C9026232590390574F49B6B0BA0DFF940A9A55C80F25BC382A76E0D85765D4CACAA752D97EE8A6539A5200791B9208F6C8E1ECA292FFA57706" alt="Galaxy-S24plus-MAThumb-1440x960.jpg" onerror="__img_error(this)"/>
+                                </div>
+                                <p class="title">Galaxy S24+</p>
+                            </a>
+                        </div>
+                        
+                        <div class="slider-item item">
+                            <a href="/media-assets/galaxy-s24/">
+                                <div class="images-wrap">
+                                    
+                                    <img src="/file/22C389B1BC85985D0057BACA1FDB03BF607C7AC2D0F2FC60F0946E39C684A8A0A360B6FE61BD3253DB6D839878C29CDF6BDC25E8570147DD5BFFF842650EDA63BBCC1D80D1170055BA8C1A3206379C9C156EF6EA715BB71745C5605B01D895E74667E13BB7A22FA202AF3E66C0D4602F6B48B4CE8BACE7322A653E4E4E791412" alt="Galaxy-S24-MAThumb-1440x960.jpg" onerror="__img_error(this)"/>
+                                </div>
+                                <p class="title">Galaxy S24</p>
+                            </a>
+                        </div>
+                        
+                        <div class="slider-item item">
+                            <a href="/media-assets/galaxy-book4-ultra/">
+                                <div class="images-wrap">
+                                    
+                                    <img src="/file/9E151AD80EBDA23DC7410F966120ADD47599967EC6390A8A2500F2EEEB1938FCA60D42F687ADD1943645080AE9835ED9FDBCB59C163D9301334D839CB43F5074F27AEF174F7248B7A31B7036D37E6EAE326C514BFA70004D5CBC230ACC3B960689F30D87E5F8519FD496BD28AD02A3BB178BED92CEE2D7FD90FCC1D9832CE332" alt="Galaxy-Book4-Ultra-MAThumb.jpg" onerror="__img_error(this)"/>
+                                </div>
+                                <p class="title">Galaxy Book4 Ultra</p>
+                            </a>
+                        </div>
+                        
+                        <div class="slider-item item">
+                            <a href="/media-assets/galaxy-book4-pro/">
+                                <div class="images-wrap">
+                                    
+                                    <img src="/file/FE79110DE3D4D1946E3C413359A9E12D6D33E582018AADD6F4B7CC74DD1905F663CD27DF000CA181FB48361442D1C35C16AA4B8AB6995AD42C3D8D93B7D6FE7C8C14C8B01BBAE32AEB695FB9677E35ADC521334C40CB431F2B1006E961D844EB223F963A1B09A37F1577CD33C0784BEF6F24AC8A494F2A58AECAA907432DD7E0" alt="Galaxy-Book4-Pro-MAThumb.jpg" onerror="__img_error(this)"/>
+                                </div>
+                                <p class="title">Galaxy Book4 Pro</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <section class="section section__feature">
+            <div class="main__inner">
+                <h2 class="blind">Feature Stories</h2>
+                <div class="section__feature-list">
+                    <ul>
+                        
+                        <li class="item is-motion">
+                            <a href="/feature-stories/the-knox-journals-tired-of-prying-eyes-on-your-personal-information-heres-how-to-stop-it/">
+                                <div class="images">
+                                    <div class="images-wrap">
+                                        
+                                        <img src="/file/2B39AD93037D732341D84FFD278BC062D0CDF2EEF4FDD9B983C1A7D3F27345D1B6BA4F144751693022CA726D38F489D70C396CCC3281A91009AB56CE7589CC8A838D3C6DF5559D2A7374765C474438AA35C85E0AFF286C4A68BABFA5172ECC06D936A353E6D5C4D2B996D487AB7CEC1612DDFED0F713BE0C1AFF9D5447306F42A2F0E05A346C5C19CE20BE41EC2E3E0BEDC565E56DE526C05C9AAE951AA3334DCD7D3A90EC05ED77EE7B5A812EB2847C24CFFF14B7D52114E1904D29D6E3F4BFD6A615374F7A6AA7147FFB0FBE0D2AC8" alt="The-Knox-Journals-Tired-of-prying-eyes-on-your-personal-information-Heres-how-to-stop-it-News-Thumb.jpg" onerror="__img_error(this)"/>
+                                    </div>
+                                </div>
+                                <p class="date">April 30, 2024</p>
+                                <p class="title">The Knox Journals: Tired of Prying Eyes on Your Personal Information? Here’s How To Stop It</p>
+                            </a>
+                            
+                            <ul class="hashtag">
+                                
+                                <li><a href="/tag/Samsung Knox">#Samsung Knox</a></li>
+                                
+                                <li><a href="/tag/Knox">#Knox</a></li>
+                                
+                                <li><a href="/tag/One UI">#One UI</a></li>
+                                
+                                <li><a href="/tag/Pin App">#Pin App</a></li>
+                                
+                                <li><a href="/tag/Maintenance Mode">#Maintenance Mode</a></li>
+                                
+                            </ul>
+                            
+
+                        </li>
+                        
+                        <li class="item is-motion">
+                            <a href="/press-releases/samsung-officially-kicks-off-olympic-and-paralympic-campaign-in-final-countdown-to-the-paris-2024/">
+                                <div class="images">
+                                    <div class="images-wrap">
+                                        
+                                        <img src="/file/F1E226DD0682F257716456AAD36E6CB2532EFB05F2A957A578564C373D750366538F96A62D07AEB59CBD1DD5988E4DB875342C80006AE02A59FAA4C0F11BAA38993C3E0A1A94D741A2B53BB8E9F0A024747CD0DF3774354BB3FBD138CA2BAD71E701F58166B24D8C8857264C47F9963DBEB566B89D2E6F7936808F1A8C4B199BEF08B5F39C879D16E70941F70F9012C7DAD027441A4CCFDFE22D08BC6532CF0722DA80C6D721FE9D38391DE9EBB954A2F9A2A96A19181160474D2FE6A3FC5372D154CF63A691141B6B744822BEC34FA2" alt="Samsung-Officially-Kicks-off-Olympic-and-Paralympic-Campaign-in-Final-Countdown-to-Paris-2024-NewsThumb-1440x960.jpg" onerror="__img_error(this)"/>
+                                    </div>
+                                </div>
+                                <p class="date">April 30, 2024</p>
+                                <p class="title">Samsung Officially Kicks-off Olympic and Paralympic Campaign in Final Countdown to Paris 2024 </p>
+                            </a>
+                            
+                            <ul class="hashtag">
+                                
+                                <li><a href="/tag/Olympics">#Olympics</a></li>
+                                
+                                <li><a href="/tag/Team Samsung Galaxy">#Team Samsung Galaxy</a></li>
+                                
+                                <li><a href="/tag/Paris 2024">#Paris 2024</a></li>
+                                
+                                <li><a href="/tag/Olympic and Paralympic Games Paris 2024">#Olympic and Paralympic Games Paris 2024</a></li>
+                                
+                                <li><a href="/tag/Open Always Wins">#Open Always Wins</a></li>
+                                
+                            </ul>
+                            
+
+                        </li>
+                        
+                        <li class="item is-motion">
+                            <a href="/feature-stories/tbd-opening-nights-samsung-skateboarding-and-breaking-communities-celebrate-the-launch-of-new-documentary-series/">
+                                <div class="images">
+                                    <div class="images-wrap">
+                                        
+                                        <img src="/file/B6CC57E042E66FC996D9AF5F9BF00F0D4AA48D82C17BD254595C9247CAC99DB600CE8727D64877DBE826BEA7FD95DBB0A9284DB43D848A216FF49BA01A68D78CE9B02A4FAEB98435AD0011A7001703B1162D0E65138A47C990ACB92FCE9D3386D9072A6EA04A3A943CB622A3281CAB4BAD8AA9C0D802C7D281FAC0E9A5331B75BB0A11EE8AF3B6D1FFAC39B1BAB048CD" alt="Olympic-Opening-Nights-2024-NewsThumb-1440x960.jpg" onerror="__img_error(this)"/>
+                                    </div>
+                                </div>
+                                <p class="date">April 29, 2024</p>
+                                <p class="title">Opening Nights: Samsung, Skateboarding and Breaking communities celebrate the launch of new documentary series with exclusive screenings at Street League Skateboarding San Diego and Pro Breaking Tour Atlanta</p>
+                            </a>
+                            
+                            <ul class="hashtag">
+                                
+                                <li><a href="/tag/Olympics">#Olympics</a></li>
+                                
+                                <li><a href="/tag/Team Samsung Galaxy">#Team Samsung Galaxy</a></li>
+                                
+                                <li><a href="/tag/Paris 2024">#Paris 2024</a></li>
+                                
+                                <li><a href="/tag/Olympic and Paralympic Games Paris 2024">#Olympic and Paralympic Games Paris 2024</a></li>
+                                
+                                <li><a href="/tag/Open Always Wins">#Open Always Wins</a></li>
+                                
+                            </ul>
+                            
+
+                        </li>
+                        
+                        <li class="item is-motion">
+                            <a href="/feature-stories/the-future-of-healthcare-fits-on-your-wrist/">
+                                <div class="images">
+                                    <div class="images-wrap">
+                                        
+                                        <img src="/file/0ED99886F3AD385524D91050A27AA3286CE6C72BFA078C7FEDB98A8ACCA16F74DA18F720EAE473D870F9C961EEDDD9BE93E396EAD783B4495366069B86DEA8EF1B3CF2B0509B7B7BE99EBD6A6FB2F8471517FC7263BF2EFED8DFA43E532B7F066CE95B8E8681489DDB3C1A542101ECADB897B847CDE9EA640F5B7131903A8FD36F35FB0C670E81F573BFF54376EB0EA8" alt="Samsung-Health-Advisory-Board-NewsThumb-1440x960.jpg" onerror="__img_error(this)"/>
+                                    </div>
+                                </div>
+                                <p class="date">April 25, 2024</p>
+                                <p class="title">The Future of Healthcare Fits on Your Wrist</p>
+                            </a>
+                            
+                            <ul class="hashtag">
+                                
+                                <li><a href="/tag/Samsung Health Advisory Board">#Samsung Health Advisory Board</a></li>
+                                
+                                <li><a href="/tag/Galaxy Watch">#Galaxy Watch</a></li>
+                                
+                                <li><a href="/tag/Wearable">#Wearable</a></li>
+                                
+                                <li><a href="/tag/Health">#Health</a></li>
+                                
+                                <li><a href="/tag/Galaxy AI">#Galaxy AI</a></li>
+                                
+                            </ul>
+                            
+
+                        </li>
+                        
+                        <li class="item is-motion">
+                            <a href="/press-releases/samsung-unveils-new-three-part-docu-series-celebrating-the-surfing-skateboarding-and-breaking-communities-on-the-road-to-paris-2024/">
+                                <div class="images">
+                                    <div class="images-wrap">
+                                        
+                                        <img src="/file/DB3B7557D0EEAE53B18FB12F796C450D4C73A0B2D73A46B16A9F4EE24398038E597272CB64DBBD5133E9FD19BF2906AAD9CC84C7BED32487D6179CE639A2C988AFA47753609200142D2D5FEECE5415B8291979AF812D5F2341203C4B70739086EBD6D4ED9EA7BCD8884852E84CD94F651FBBA7765B9ED144A4B718353273D5173F2B28F77329AE71E4F2ED670C8B4375D55D0D106849FCF41A95A2F7CA1781E9014DD9F444558274E3C47571A9C99EE96CE0A78E57EB12E5F0E7A8B99C5170402B436734B6FE0D9C24885689C196A8818A3C3DE2849CC77EBD8A24EF339CB1373609AD06AB7FC897328E30E390E31654" alt="Samsung-Unveils-New-Three-Part-Docu-Series-Celebrating-the-Skateboarding-Breaking-and-Surfing-Communities-on-the-Road-to-Paris-NewsThumb-1440x960.jpg" onerror="__img_error(this)"/>
+                                    </div>
+                                </div>
+                                <p class="date">April 19, 2024</p>
+                                <p class="title">Samsung Unveils New Three-Part Docu-Series Celebrating the Skateboarding, Breaking and Surfing Communities on the Road to Paris 2024</p>
+                            </a>
+                            
+                            <ul class="hashtag">
+                                
+                                <li><a href="/tag/Olympics">#Olympics</a></li>
+                                
+                                <li><a href="/tag/Team Samsung Galaxy">#Team Samsung Galaxy</a></li>
+                                
+                                <li><a href="/tag/Paris 2024">#Paris 2024</a></li>
+                                
+                                <li><a href="/tag/Olympic and Paralympic Games Paris 2024">#Olympic and Paralympic Games Paris 2024</a></li>
+                                
+                                <li><a href="/tag/Open Always Wins">#Open Always Wins</a></li>
+                                
+                            </ul>
+                            
+
+                        </li>
+                        
+                        <li class="item is-motion">
+                            <a href="/press-releases/samsung-announces-european-team-samsung-galaxy-athletes-for-paris-2024/">
+                                <div class="images">
+                                    <div class="images-wrap">
+                                        
+                                        <img src="/file/EEFAF61CEC31E9D3806CA46B10B78565908FCB94D65F92BECD0A0ED0940D0B4F2EB2D17FF3EA19FE2B1DEBBCF4BFCDEF50A37F8E6394517A8E5BE26F92921A5EDB81667479DA0D7C3CFE66CD667524F8486D92DAE6D9B034EF0D7DEB16C01383064DE31335A4EFC51A74CB14A18D34023AA8D2994FAA5AF553492C48C4FD879A0E3D6DC487811F05BB92A890E5358914724C10C3A025907925226D5A4C6D46B6" alt="Samsung-Galaxy-Athletes- for-Paris-2024-News-Thumb.jpg" onerror="__img_error(this)"/>
+                                    </div>
+                                </div>
+                                <p class="date">April 18, 2024</p>
+                                <p class="title">Samsung Announces European Team Samsung Galaxy Athletes for Paris 2024</p>
+                            </a>
+                            
+                            <ul class="hashtag">
+                                
+                                <li><a href="/tag/Olympics">#Olympics</a></li>
+                                
+                                <li><a href="/tag/Team Samsung Galaxy">#Team Samsung Galaxy</a></li>
+                                
+                                <li><a href="/tag/Paris 2024">#Paris 2024</a></li>
+                                
+                                <li><a href="/tag/Olympic and Paralympic Games Paris 2024">#Olympic and Paralympic Games Paris 2024</a></li>
+                                
+                            </ul>
+                            
+
+                        </li>
+                        
+                    </ul>
+                    <!--                    <div class="group">-->
+                    <!--                        <a href="javascript:;" class="button next">More Stories</a>-->
+                    <!--                    </div>-->
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+    
+        <footer>
+            <div class="main__inner">
+                <div class="main">
+                    <div class="top">
+                        <p class="logo">Samsung Mobile Press</p>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="/press-releases/" data-category="footer" data-action="click" data-label="foot_pr">Press Releases</a></li>
+                                <li><a href="/feature-stories/" data-category="footer" data-action="click" data-label="foot_fs">Feature Stories</a></li>
+                                <li><a href="/media-assets/" data-category="footer" data-action="click" data-label="foot_ma">Media Assets</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="util">
+                        <li><a href="/terms">Terms of Use</a></li>
+                    </ul>
+                    <p class="copyright">Copyright ⓒ 2022 SAMSUNG All Rights Reserved</p>
+                </div>
+                <div class="service">
+                    <div class="share">
+                        <a href="/feed/" class="rss" target="_blank" data-category="footer" data-action="click" data-label="foot_rss">rss</a>
+                        <a href="https://www.facebook.com/SamsungGlobal/" class="facebook" target="_blank" data-category="footer" data-action="click" data-label="foot_facebook">facebook</a>
+                        <a href="https://twitter.com/samsungmobile/" class="twitter" target="_blank" data-category="footer" data-action="click" data-label="foot_twitter">twitter</a>
+                        <a href="https://www.youtube.com/user/SamsungMobile/" class="youtube" target="_blank" data-category="footer" data-action="click" data-label="foot_youtube">youtube</a>
+                        <a href="https://www.linkedin.com/company/samsungmobile/" class="linkedin" target="_blank" data-category="footer" data-action="click" data-label="foot_linkedin">linkedin</a>
+                        <a href="https://www.instagram.com/samsungmobile/" class="instagram" target="_blank" data-category="footer" data-action="click" data-label="foot_instagram">instagram</a>
+                    </div>
+                    <div class="family-links">
+                        <select class="input-select channel">
+                            <option selected hidden disabled>Related Channels</option>
+                            <option value="https://www.samsung.com/" data-category="footer" data-action="click" data-label="foot_samsung_mainpage">SAMSUNG</option>
+                            <option value="https://www.samsung.com/global/galaxy/" data-category="footer" data-action="click" data-label="foot_samsung_galaxy">SAMSUNG Galaxy</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</div>
+
+</body>
+</html>
