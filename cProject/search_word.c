@@ -64,7 +64,6 @@ Array *search_word(Tags const *tags, char const *search_words_str) {
             }
         }
     }
-    free(search_words->texts);
     return number_of_tags;
 }
 
@@ -75,6 +74,5 @@ char *str_text_for_search_word(Tags const *tags, char const *search_words) {
     for (int i = 0; i < number_of_tags->count; i++) {
         add_text_to_multiple_text(texts_for_search_word, tags->texts[number_of_tags->array[i]]);
     }
-    free(number_of_tags);
     return join_texts(texts_for_search_word, "\n\t");
 }
