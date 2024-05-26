@@ -9,7 +9,8 @@ class App(tk.Tk):
         self.tags = str
         self.domain = str
 
-        # ВВОД URL
+
+
         self.label1 = tk.Label(self, text="Введите URL странички для поиска по ней:",
                               font=("Arial", 18))
         self.label1.pack(pady=(30, 20))
@@ -17,32 +18,12 @@ class App(tk.Tk):
         self.input_field1 = tk.Entry(self, width=30)
         self.input_field1.pack()
 
-        self.save_button = tk.Button(self, text="Сохранить", command=self.saveURL)
+        self.save_button = tk.Button(self, text="Сохранить", command=self.searchSelection)
         self.save_button.pack(pady=10)
 
 
-        # ВЫБОР ПОИСКА
-        self.label2 = tk.Label(self, text="Выберите тип поиска по страничке:",
-                              font=("Arial", 18))
-
-        self.btn1 = tk.Button(self, text="Поиск слов", command=self.byWords,
-                              height=1, width=15, font=("Arial", 9))
-        self.btn2 = tk.Button(self, text="Поиск по тегам", command=self.byTags,
-                              height=1, width=15, font=("Arial", 9))
-        self.btn3 = tk.Button(self, text="Поиск слов в тегах", command=self.byTagsWords,
-                              height=1, width=15, font=("Arial", 9))
-        self.btn4 = tk.Button(self, text="Поиск ссылок", command=self.byLinks,
-                              height=1, width=15, font=("Arial", 9))
-        self.btn1.place_forget()
-        self.btn2.place_forget()
-        self.btn3.place_forget()
-        self.btn4.place_forget()
-        self.label2.pack_forget()
 
 
-        # ВВОД ДЛЯ ПОИСКА
-        self.label3 = tk.Label(self)
-        self.label3.pack_forget()
 
 
 
@@ -76,6 +57,32 @@ class App(tk.Tk):
         self.label3.pack_forget()
         self.save_button.pack_forget()
 
+    def inputWordsAndTags(self):
+        self.label3 = tk.Label(self, text="Введите слова через пробел, которые хотите найти:",
+                               font=("Arial", 16))
+        self.label3.pack(pady=(30, 20))
+        self.input_field = tk.Entry(self, width=30)
+        self.input_field.pack()
+        self.save_button = tk.Button(self, text="Сохранить", command=self.saveWordTags)
+        self.save_button.pack(pady=10)
+    def saveWordTags(self):
+        self.words = self.input_field.get()
+        self.input_field.pack_forget()
+        self.label3.pack_forget()
+        self.save_button.pack_forget()
+        self.label3 = tk.Label(self, text="Введите теги через пробел, тексты которых хотите найти:",
+                               font=("Arial", 16))
+        self.label3.pack(pady=(30, 20))
+        self.input_field = tk.Entry(self, width=30)
+        self.input_field.pack()
+        self.save_button = tk.Button(self, text="Сохранить", command=self.saveTagsWords)
+        self.save_button.pack(pady=10)
+    def saveTagsWords(self):
+        self.tags = self.input_field.get()
+        self.input_field.pack_forget()
+        self.label3.pack_forget()
+        self.save_button.pack_forget()
+
     def inputDomain(self):
         self.label3 = tk.Label(self, text="Введите один домен, ссылки с которым хотите найти:",
                                font=("Arial", 16))
@@ -93,11 +100,22 @@ class App(tk.Tk):
 
 
 
-    def saveURL(self):
+    def searchSelection(self):
         self.url = self.input_field1.get()
         self.save_button.pack_forget()
         self.input_field1.pack_forget()
         self.label1.pack_forget()
+
+        self.label2 = tk.Label(self, text="Выберите тип поиска по страничке:",
+                              font=("Arial", 18))
+        self.btn1 = tk.Button(self, text="Поиск слов", command=self.byWords,
+                              height=1, width=15, font=("Arial", 9))
+        self.btn2 = tk.Button(self, text="Поиск по тегам", command=self.byTags,
+                              height=1, width=15, font=("Arial", 9))
+        self.btn3 = tk.Button(self, text="Поиск слов в тегах", command=self.byTagsWords,
+                              height=1, width=15, font=("Arial", 9))
+        self.btn4 = tk.Button(self, text="Поиск ссылок", command=self.byLinks,
+                              height=1, width=15, font=("Arial", 9))
 
         self.label2.pack(pady=(30, 20))
         self.btn1.place(relx=.1, rely=.5)
@@ -122,8 +140,7 @@ class App(tk.Tk):
         self.search = 2
     def byTagsWords(self):
         self.buttonHide()
-        self.inputWords()
-        self.inputTags()
+        self.inputWordsAndTags()
         self.search = 3
     def byLinks(self):
         self.buttonHide()
@@ -131,9 +148,12 @@ class App(tk.Tk):
         self.search = 4
 
 
-
 if __name__ == "__main__":
     app = App()
     app.geometry('600x180')
     app.title("BRUUUH")
     app.mainloop()
+    with open('selections.txt', 'w') as file:
+        result = (f"{str(app.search)}\n" + (f"{app.words}\n" if app.words else "") +
+                  (f"{app.tags}\n" if app.tags else "") + (f"{app.domain}\n" if app.domain else ""))
+        file.write(result)
